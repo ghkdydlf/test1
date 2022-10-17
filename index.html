@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6282a8ba62.js" crossorigin="anonymous"></script>
+        <script src="./jquery-1.12.4.js"></script>
+        <script src="./index.js"></script>
+        <script src="./po.js"></script>
+    </head>
+    <body style="overflow-x: hidden">
+        <header>
+            <section class="main_content">
+                <nav class="main_nav">
+                    <img src="./img/logo.svg" alt="">
+                    <ul>
+                        <li class="nav_txt1"><a href="#">국립현대미술관</a></li>
+                        <li class="nav_txt2"><a href="#">National Museum of</a></li>
+                        <li class="nav_txt2"><a href="#">Modern and Contemporary Art, Korea</a></li>
+                    </ul>
+                </nav>
+    
+                <div class="main_cont">
+                    <div class="main_img">
+                        <img src="./img/MA1.png" alt="">
+                    </div>
+    
+                    <div class="main_bg">
+                        <ul class="main_text">
+                            <li class="txt1">감각의 공간, 워치 앤 칠 2.0</li>
+                            <li class="txt2">2022.06.10.-2022.09.12.</li>
+                            <li><button>전시 관람 예약하기</button></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                
+                <div class="main_down">
+                    <svg width="24" height="82" viewBox="0 0 24 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.9393 81.0607C11.5251 81.6464 12.4749 81.6464 13.0607 81.0607L22.6066 71.5147C23.1924 70.9289 23.1924 69.9792 22.6066 69.3934C22.0208 68.8076 21.0711 68.8076 20.4853 69.3934L12 77.8787L3.51472 69.3934C2.92893 68.8076 1.97918 68.8076 1.3934 69.3934C0.807612 69.9792 0.807612 70.9289 1.3934 71.5147L10.9393 81.0607ZM10.5 0L10.5 80H13.5L13.5 0L10.5 0Z" fill="black"/>
+                    </svg> 
+                </div>
+            </section>
+        </header>
+        </body>
+        
+        <main>
+            <nav class="navbar">
+                <div class="main-menu">
+                    <div class="logo"><img src="./img/logo.svg" alt=""></div>
+                    <ul class="menu">
+                        <li><a href="#">관람·참여</a></li>
+                        <li><a href="#">전시</a></li>
+                        <li><a href="#">교육</a></li>
+                        <li><a href="#">소장품</a></li>
+                        <li><a href="#">미술연구</a></li>
+                        <li><a href="#">디지털미술관</a></li>
+                    </ul>
+                </div>
+                <ul class="side">
+                    <li><a href="#">로그인</a></li>
+                    <li class="language"><a href="#">한국어<i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </nav>
+            
+            <!-- sec1 -->
+            <section class="sec1">
+                <div class="container1">
+                    <!-- 슬라이더 버튼 -->
+                    <div class="btn">
+                        <ul class="click">
+                            <li id="click1">전시</li>
+                            <li id="click2">미술관</li>
+                            <li id="click3">소장품</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- 슬라이더 -->
+                    <div class="slider">
+                        <!-- 전시 -->
+                        <ul id="slid" class="slide">
+                            <li class="slide_cont">
+                                <img src="./img/w1.png" alt="">
+                                <ul class="slide_txt">
+                                    <li class="slide_txt1">과천</li>
+                                    <li class="txt_main">MMCA 과천프로젝트 2022:옥상정원_시간의 정원</li>
+                                    <li class="txt_sub">2022-06-29~2023-06-25</li>
+                                </ul>
+                            </li>
+                            <li class="slide_cont">
+                                <img src="./img/w2.png" alt="">
+                                <ul class="slide_txt">
+                                    <li class="slide_txt1">서울</li>
+                                    <li class="txt_main">감각의 공간, 워치 앤 칠 2.0</li>
+                                    <li class="txt_sub">2022-06-10~2022-09-12</li>
+                                </ul>
+                            </li>
+                            <li class="slide_cont">
+                                <img src="./img/w3.png" alt="">
+                                <ul class="slide_txt">
+                                    <li class="slide_txt1">과천</li>
+                                    <li class="txt_main">한국의 채색화 특별전 «생의 찬미» </li>
+                                    <li class="txt_sub">2022-06-01~2022-09-25</li>
+                                </ul>
+                            </li>
+                            <li class="slide_cont">
+                                <img src="./img/w4.png" alt="">
+                                <ul class="slide_txt">
+                                    <li class="slide_txt1">과천</li>
+                                    <li class="txt_main">가면무도회</li>
+                                    <li class="txt_sub">2022-04-13~2022-07-31</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- 미술관 -->
+                        <ul id="slid2" class="slide">
+                            <li class="slide_cont">
+                                <img src="./img/a1.jpg" alt="">
+                                <ul class="slide_txt">
+                                    <li class="txt_main">서울</li>
+                                    <li class="slide_txt2">월요일,화요일,목요일,금요일,일요일</li>
+                                    <li class="slide_txt2">10:00~18:00</li>
+                                    <li class="slide_txt2">수요일,토요일 야간개장 10:00~21:00</li>
+                                    <li>
+                                        <ul class="tag">
+                                            <li class="txt_sub">*전시</li>
+                                            <li class="txt_sub">*필름앤비디오</li>
+                                            <li class="txt_sub">*다원예술</li>
+                                            <li class="txt_sub">*교육</li>
+                                            <li class="txt_sub">*이벤트</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="slide_cont">
+                                <img src="./img/a2.jpg" alt="">
+                                <ul class="slide_txt">
+                                    <li class="txt_main">과천</li>
+                                    <li class="slide_txt2">화요일–일요일(월요일 휴관), 10:00~18:00</li>
+                                    <li>
+                                        <ul class="tag">
+                                            <li class="txt_sub">*전시</li>
+                                            <li class="txt_sub">*교육</li>
+                                            <li class="txt_sub">*어린이미술관</li>
+                                            <li class="txt_sub">*이벤트</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="slide_cont">
+                                <img src="./img/a3.jpg" alt="">
+                                <ul class="slide_txt">
+                                    <li class="txt_main">덕수궁</li>
+                                    <li class="slide_txt2">오늘은 휴관일 입니다.</li>
+                                    <li>
+                                        <ul class="tag">
+                                            <li class="txt_sub">*전시</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="slide_cont">
+                                <img src="./img/a4.jpg" alt="">
+                                <ul class="slide_txt">
+                                    <li class="txt_main">청주</li>
+                                    <li class="slide_txt2">화요일–일요일(월요일 휴관), 10:00~18:00</li>
+                                    <li>
+                                        <ul class="tag">
+                                            <li class="txt_sub">*전시</li>
+                                            <li class="txt_sub">*이벤트</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- 소장품 -->
+                        <ul id="slid3" class="slide">
+                            <li class="slide_cont">
+                                <img src="./img/S1.jpg" alt="">
+                                <ul class="slide_txt">
+                                    <li class="slide_txt1">고희동</li>
+                                    <li class="slide_txt1">KO Huidong</li>
+                                    <li class="txt_main">자화상</li>
+                                    <li class="txt_sub">1915</li>
+                                </ul>
+                            </li>
+                            <li class="slide_cont">
+                                <img src="./img/S2.jpg" alt="">
+                                <ul class="slide_txt">
+                                    <li class="slide_txt1">한홍택</li>
+                                    <li class="slide_txt1">HAN Hongtaik</li>
+                                    <li class="txt_main">관광 포스터</li>
+                                    <li class="txt_sub">1690년대</li>
+                                </ul>
+                            </li>
+                            <li class="slide_cont">
+                                <img src="./img/S3.jpg" alt="">
+                                <ul class="slide_txt">
+                                    <li class="slide_txt1">이기우</li>
+                                    <li class="slide_txt1">LEE Kiwoo</li>
+                                    <li class="txt_main">학수천세(鶴壽千歲)</li>
+                                    <li class="txt_sub">연도미상</li>
+                                </ul>
+                            </li>
+                            <li class="slide_cont">
+                                <img src="./img/S4.jpg" alt="">
+                                <ul class="slide_txt">
+                                    <li class="slide_txt1">임용련</li>
+                                    <li class="slide_txt1">GilbertPha YIM</li>
+                                    <li class="txt_main">십자가</li>
+                                    <li class="txt_sub">1929</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 더보기 -->
+                    <div class="more"><a href="">모두보기 ></a></div>
+                </div>
+            </section>
+            
+            <!-- sec2 -->
+            <section class="sec2">
+                <div class="container2">
+                    <div class="click2">디지털미술관</div>
+                    <!-- 비디오 -->
+                    <div class="box">
+                        <div id="move1" class="move">
+                            <div class="momo"><img src="./img/v1.png" class="im"></div>
+                            <ul>
+                                <li class="cont2_txt1">MMCA TV</li>
+                                <li class="cont2_txt2">국립현대미술관 큐레이터의 설명으로 보는<br>«생의 찬미»</li>
+                            </ul>
+                        </div>
+                        <div id="move2" class="move">
+                            <div class="momo"><img src="./img/v2.png" class="im"></div>
+                            <ul>
+                                <li class="cont2_txt1">MMCA TV</li>
+                                <li class="cont2_txt2">청각장애인을 위한 수어 전시감상<br>«한국의 채색화 특별전: 생의 찬미»</li>
+                            </ul>
+                        </div>
+                        <div id="move3" class="move">
+                            <div class="momo"><img src="./img/v3.png" class="im"></div>
+                            <ul>
+                                <li class="cont2_txt1">MMCA TV</li>
+                                <li class="cont2_txt2">[오늘, 이 작품] 곽덕준ㅣ클린턴 곽-Iㅣ1999</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 더보기 -->
+                    <div class="more"><a href="">모두보기 ></a></div>
+                </div>
+            </section>
+            <section  class="sec3">
+                <div class="container3">
+                    <div class="click3">MMCA 뉴스레터</div>
+                    <!-- 뉴스 -->
+                    <div class="news_box">
+                        <div class="news">
+                            <img src="./img/news1.png" alt="">
+                            <ul>
+                                <li class="cont3_txt1">전시 포커스</li>
+                                <li class="cont3_txt2">문신, 백남준, 이건희 컬렉션!</li>
+                                <li class="cont3_txt3">2022-07-13</li>
+                            </ul>
+                        </div>
+                        <div class="news">
+                            <img src="./img/news2.png" alt="">
+                            <ul>
+                                <li class="cont3_txt1">미술관 플러스</li>
+                                <li class="cont3_txt2">귓가에 사랑한다고 속삭여줘「ASMR- 디지털<br>미디어 시대의 친밀감과 돌봄」 </li>
+                                <li class="cont3_txt3">2022-07-13</li>
+                            </ul>
+                        </div>
+                        <div class="news">
+                            <img src="./img/news3.png" alt="">
+                            <ul>
+                                <li class="cont3_txt1">미술관 플러스</li>
+                                <li class="cont3_txt2">미술관 메타버스가 열리다!《생의 찬미》<br>디지털 트윈</li>
+                                <li class="cont3_txt3">2022-07-13</li>
+                            </ul>
+                        </div>
+                        <div class="news">
+                            <img src="./img/news4.png" alt="">
+                            <ul>
+                                <li class="cont3_txt1">소장품 더보기</li>
+                                <li class="cont3_txt2">한여름 무더위를 식히다, 김영기 <향가일취></li>
+                                <li class="cont3_txt3">2022-07-13</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 더보기 -->
+                    <div class="more"><a href="">모두보기 ></a></div>
+                </div>
+            </section>
+            <section class="sec4">
+                <div class="container4">
+                    <div class="sub_menu">
+                        <div class="sub_box">
+                            <ul class="title">
+                                <li class="sub_title">미술은행</li>
+                                <li class="sub_icon"><i class="fas fa-chevron-down"></i></li>
+                            </ul>
+                            <div id="open" class="sub_ex">
+                                <div class="flex-container">
+                                    <img src="./img/img_link01.jpg" alt="">
+                                    <ul>
+                                        <li class="sub_txt">
+                                            미술은행은 매년 다양한 경로를 통해 우수한 작품을 구입하고
+                                            이들 작품을 공공기관 및 지역 문화예술기관,기업 등에
+                                            대여·전시하여 미술문화의 대중화에 기여하고 있으며 더 나아가
+                                            해외 공관에 작품을 전시함으로써 우리의 현대미술을 알리는
+                                            문화 전령사로서의 역할도 수행하고 있습니다.
+                                        </li>
+                                        <li class="sub_more">더 알아보기 ></li>
+                                    </ul>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="sub_box">
+                            <ul class="title">
+                                <li class="sub_title">레지던시</li>
+                                <li class="sub_icon"><i class="fas fa-chevron-down"></i></li>
+                            </ul>
+                            <div id="open2" class="sub_ex">
+                                <div class="flex-container">
+                                    <img src="./img/img_link02.jpg" alt="">
+                                    <ul>
+                                        <li class="sub_txt">
+                                            국립현대미술관 레지던시는 국내〮외 예술가들의 창작 여건
+                                            활성화와 글로벌 네트워크 확대를 위해 국립현대미술관이
+                                            운영하는 레지던시입니다.<br>
+                                            국립현대미술관 레지던시는 국내〮외 여러 장르의 예술가와
+                                            연구자들의 창작과 연구 활동을 지원하고 있습니다.
+                                        </li>
+                                        <li class="sub_more">더 알아보기 ></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub_box">
+                            <ul class="title">
+                                <li class="sub_title">미술연구센터</li>
+                                <li class="sub_icon"><i class="fas fa-chevron-down"></i></li>
+                            </ul>
+                            <div id="open3" class="sub_ex">
+                                <div class="flex-container">
+                                    <img src="./img/img_link03.jpg" alt="">
+                                    <ul>
+                                        <li class="sub_txt">
+                                            미술연구센터는 한국 및 아시아 근현대 미술의 이해와 연구를
+                                            목적으로 2013년 10월에 설립이 되어, 미술자료의 관리·보존,
+                                            연구 활동 지원, 미술정보 서비스 등의 사업을 추진하고 있습니다.
+                                        </li>
+                                        <li class="sub_more">더 알아보기 ></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub_box">
+                            <ul class="title">
+                                <li class="sub_title">디지털정보실</li>
+                                <li class="sub_icon"><i class="fas fa-chevron-down"></i></li>
+                            </ul>
+                            <div id="open4" class="sub_ex">
+                                <div class="flex-container">
+                                    <img src="./img/img_link04.jpg" alt="">
+                                    <ul>
+                                        <li class="sub_txt">
+                                            디지털정보실은 미술애호가 및 일반 대중에게 다양한 미술정보를
+                                            제공하기 위해 2014년 2월 개소하였으며, 미술자료의
+                                            수집•관리•보존, 디지털자료 및 원본자료 열람서비스,
+                                            아카이브 전시 등의 사업을 추진하고 있습니다.
+                                        </li>
+                                        <li class="sub_more">더 알아보기 ></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="sec5">
+                <div class="newsletter">
+                    <div class="news_txt">
+                        <ul>
+                            <li class="n_txt1">MMCA 뉴스레터 구독신청</li>
+                            <li class="n_txt2">MMCA 뉴스레터 구독 신청하고 새로운 소식을 만나 보세요.</li>
+                        </ul>
+                        <input type="text" placeholder="이메일 주소를 입력하세요.">
+                        <button>구독하기</button>
+                    </div>
+                    <ul class="news_menu">
+                        <li><a href="">MMCA 뉴스레터</a></li>
+                        <li><a href="">소식지</a></li>
+                        <li><a href="">멤버십</a></li>
+                        <li><a href="">온라인숍</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_f">
+                    <ul class="list">
+                        <li><a href="">인스타그램</a></li>
+                        <li><a href="">유튜브</a></li>
+                        <li><a href="">페이스북</a></li>
+                        <li><a href="">트위터</a></li>
+                        <li><a href="">네이버</a></li>
+                    </ul>
+                    <ul class="list">
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">개인정보처리방침</a></li>
+                        <li><a href="">저작권정책</a></li>
+                        <li><a href="">국민신문고</a></li>
+                        <li><a href="">정보공개</a></li>
+                        <li><a href="">불편부조리신고</a></li>
+                    </ul>
+                    <ul class="list">
+                        <li><a href="">미술관 소개</a></li>
+                        <li><a href="">새소식</a></li>
+                        <li><a href="">채용</a></li>
+                        <li><a href="">보도자료</a></li>
+                        <li><a href="">후원</a></li>
+                        <li><a href="">MMCA프렌즈</a></li>
+                    </ul>
+                    <ul class="list">
+                        <li><a href="">자원봉사</a></li>
+                        <li><a href="">시설대관·복제신청</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">사이트맵</a></li>
+                        <li><a href="">국립현대미술관 문화재단</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_b">
+                    <img src="./img/wa.png" alt="">
+                    <ul class="b_list">
+                        <li>대표자: 윤범모 | 사업자등록번호: 138-83-00313</li>
+                        <li>대표전화: (서울) 02‒3701‒9500, (과천) 02‒2188‒6000, (덕수궁) 02‒2022‒0600, (청주) 043‒261‒1400</li>
+                        <li>© 2021 National Museum of Modern and Contemporary Art, Korea</li>
+                    </ul>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
